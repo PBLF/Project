@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3cbf7f4-82bc-4856-9bd8-45e949bc70e7" name="Default Changelist" comment="学生成绩">
-      <change afterPath="$PROJECT_DIR$/小程序/图书管理.py" afterDir="false" />
+    <list default="true" id="f3cbf7f4-82bc-4856-9bd8-45e949bc70e7" name="Default Changelist" comment="图书管理">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/小程序/链接数据库.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +40,13 @@
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="PBLF" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="first" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/PBLF/student" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1pTcpkWXCaVzpvAXAVSEan9ZsuI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,13 +57,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
-  <component name="RunManager" selected="Python.图书管理">
+  <component name="RunManager" selected="Python.链接数据库">
     <configuration name="水仙花数 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python程序" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,6 +102,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/日常小程序/水仙花数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="链接数据库" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python程序" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/小程序" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/小程序/链接数据库.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,10 +222,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.图书管理" />
-        <item itemvalue="Python.打开网页" />
-        <item itemvalue="Python.水仙花数 (1)" />
+        <item itemvalue="Python.链接数据库" />
         <item itemvalue="Python.水仙花数" />
+        <item itemvalue="Python.水仙花数 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +244,9 @@
       <workItem from="1616311546371" duration="81000" />
       <workItem from="1616311660580" duration="911000" />
       <workItem from="1616312704538" duration="6284000" />
-      <workItem from="1616383578009" duration="4292000" />
+      <workItem from="1616383578009" duration="4554000" />
+      <workItem from="1616476124303" duration="234000" />
+      <workItem from="1616489430165" duration="1933000" />
     </task>
     <task id="LOCAL-00001" summary="学生成绩">
       <created>1616318194272</created>
@@ -250,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616385474006</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="图书管理">
+      <created>1616389334927</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616389334927</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,10 +311,22 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="学生成绩" />
-    <option name="LAST_COMMIT_MESSAGE" value="学生成绩" />
+    <MESSAGE value="图书管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="图书管理" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/小程序/图书管理.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="图书管理 Coverage Results" MODIFIED="1616389067629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/小程序" />
+    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="链接数据库 Coverage Results" MODIFIED="1616491212331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/小程序" />
     <SUITE FILE_PATH="coverage/Python$__1_.coverage" NAME="水仙花数 (1) Coverage Results" MODIFIED="1616315969300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/小程序" />
   </component>
 </project>
