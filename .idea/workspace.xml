@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3cbf7f4-82bc-4856-9bd8-45e949bc70e7" name="Default Changelist" comment="文本转写">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/小程序/文本转写.py" beforeDir="false" afterPath="$PROJECT_DIR$/小程序/文本转写.py" afterDir="false" />
-    </list>
+    <list default="true" id="f3cbf7f4-82bc-4856-9bd8-45e949bc70e7" name="Default Changelist" comment="文本转写" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -269,7 +266,7 @@
       <workItem from="1616489430165" duration="3312000" />
       <workItem from="1616562959270" duration="3180000" />
       <workItem from="1616580160557" duration="2453000" />
-      <workItem from="1616651915037" duration="858000" />
+      <workItem from="1616651915037" duration="1222000" />
     </task>
     <task id="LOCAL-00001" summary="学生成绩">
       <created>1616318194272</created>
@@ -334,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616581721361</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="文本转写">
+      <created>1616654533825</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616654533825</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
